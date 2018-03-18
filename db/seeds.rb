@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Principle.destroy_all
+
+
+Principle.create!(number: 1, text: "All people are created equal.", source: "Constitution of the United States")
+Principle.create!(number: 2, text: "But some are more equal than others.", source: "George Orwell")
